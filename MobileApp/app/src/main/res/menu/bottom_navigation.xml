@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_googlemaps"
+        android:icon="@drawable/ic_memory_black_24dp"
+        android:title="Maps"
+        />
+    <item
+        android:id="@+id/nav_profil"
+        android:icon="@drawable/ic_person_outline_black_24dp"
+        android:title="Profil"
+        />
+<!--    <item-->
+<!--        android:id="@+id/nav_activitati"-->
+<!--        android:icon="@drawable/ic_whatshot_black_24dp"-->
+<!--        android:title="Raporturi"-->
+<!--        />-->
+<!--    <item-->
+<!--        android:id="@+id/nav_recomandari"-->
+<!--        android:icon="@drawable/ic_notifications_none_black_24dp"-->
+<!--        android:title="Raporturile mele"-->
+<!--        />-->
+
+</menu>

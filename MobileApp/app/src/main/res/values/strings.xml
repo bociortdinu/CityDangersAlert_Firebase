@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CityDangersAlert</string>
+    <string name="settings_change">Editare</string>
+    <string name="back_menu">Back</string>
+    <string name="setting_logout">Deconectare</string>
+
+    <string-array name="tip_sizare">
+        <item>*Alegeti tipul sesizarii</item>
+
+        <item>Asistenta sociala</item>
+
+        <item>Depozitari deseuri</item>
+
+        <item>Constructii/Lucrari neautorizate | oraganizare santier</item>
+
+        <item>Iluminat public</item>
+
+        <item>Parcari neregulamentare</item>
+
+        <item>Salubritate</item>
+
+        <item>Spatii verzi/Parcuri</item>
+
+        <item>Strazi/Alei/Trotuare/Poduri</item>
+
+        <item>Taxe si impozite</item>
+
+        <item>Semnalizare rutiera</item>
+
+        <item>Retele de apa/canalizare (CAS)</item>
+
+        <item>Transport public (CTP)</item>
+
+        <item>"Altele"</item>
+
+    </string-array>
+</resources>

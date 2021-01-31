@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Inregistrare2">
+
+    <ImageView
+        android:id="@+id/imagineProfilUPDATE"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="@+id/numeInregistrare"
+        app:layout_constraintStart_toStartOf="@+id/numeInregistrare"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+    <EditText
+        android:id="@+id/numeInregistrare"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#8cdbfb"
+        android:ems="10"
+        android:fontFamily="@font/source_sans_pro"
+        android:hint="Nume"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/prenumeInregistrare"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/prenumeInregistrare"
+        app:layout_constraintTop_toBottomOf="@+id/imagineProfilUPDATE"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/prenumeInregistrare"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#8cdbfb"
+        android:ems="10"
+        android:fontFamily="@font/source_sans_pro"
+        android:hint="Prenume"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/cnpInregistrare"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/cnpInregistrare"
+        app:layout_constraintTop_toBottomOf="@+id/numeInregistrare"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/cnpInregistrare"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#8cdbfb"
+        android:ems="10"
+        android:fontFamily="@font/source_sans_pro"
+        android:hint="CNP"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/telefonInregistrare"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/telefonInregistrare"
+        app:layout_constraintTop_toBottomOf="@+id/prenumeInregistrare"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/telefonInregistrare"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#8cdbfb"
+        android:ems="10"
+        android:fontFamily="@font/source_sans_pro"
+        android:hint="Telefon"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/adresaInregistrare"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/adresaInregistrare"
+        app:layout_constraintTop_toBottomOf="@+id/cnpInregistrare"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/adresaInregistrare"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#8cdbfb"
+        android:ems="10"
+        android:fontFamily="@font/source_sans_pro"
+        android:hint="Adresa"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSalveazaInregistrare"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/buttonSalveazaInregistrare"
+        app:layout_constraintTop_toBottomOf="@+id/telefonInregistrare"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonSalveazaInregistrare"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="40dp"
+        android:background="#25446d"
+        android:fontFamily="@font/source_sans_pro"
+        android:text="Salveaza"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adresaInregistrare" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

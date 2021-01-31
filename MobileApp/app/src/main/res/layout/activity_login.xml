@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:id="@+id/imageLogin"
+        android:layout_width="228dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/ic_numecity1"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/ic_numecity1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logocity" />
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#8cdbfb"
+        android:ems="10"
+        android:fontFamily="@font/source_sans_pro"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/parolaLogin"
+        app:layout_constraintStart_toStartOf="@+id/parolaLogin"
+        app:layout_constraintTop_toBottomOf="@+id/imageLogin" />
+
+    <EditText
+        android:id="@+id/parolaLogin"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#8cdbfb"
+        android:ems="10"
+        android:fontFamily="@font/source_sans_pro"
+        android:hint="Parola"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSalveaza"
+        app:layout_constraintStart_toStartOf="@+id/buttonSalveaza"
+        app:layout_constraintTop_toBottomOf="@+id/emailLogin" />
+
+    <Button
+        android:id="@+id/buttonSalveaza"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="60dp"
+        android:background="#25446d"
+        android:fontFamily="@font/source_sans_pro"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parolaLogin" />
+
+
+    <Button
+        android:id="@+id/buttonStartWithoutLogin"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:background="#25446d"
+        android:fontFamily="@font/source_sans_pro"
+        android:text="Start Without Login"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSalveaza"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/ic_numecity1"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="300dp"
+        android:src="@drawable/numecity"
+        app:layout_constraintEnd_toEndOf="@+id/emailLogin"
+        app:layout_constraintStart_toStartOf="@+id/emailLogin"
+        app:layout_constraintTop_toBottomOf="@+id/imageLogin" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="24dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/emailLogin"
+        app:layout_constraintTop_toBottomOf="@+id/ic_numecity1"
+        app:srcCompat="@drawable/ic_action_name_user" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        app:layout_constraintEnd_toStartOf="@+id/parolaLogin"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/ic_action_name" />
+
+    <TextView
+        android:id="@+id/id_inreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/source_sans_pro_light"
+        android:text="Inregistreaza-te"
+        android:textColor="#60a2c9"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSalveaza"
+        app:layout_constraintStart_toStartOf="@+id/buttonSalveaza"
+        app:layout_constraintTop_toTopOf="@+id/buttonSalveaza" />
+
+    <TextView
+        android:id="@+id/id_uitat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/source_sans_pro_light"
+        android:text="Ti-ai uitat parola?"
+        android:textColor="#60a2c9"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/id_inreg"
+        app:layout_constraintStart_toStartOf="@+id/id_inreg"
+        app:layout_constraintTop_toBottomOf="@+id/id_inreg" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
